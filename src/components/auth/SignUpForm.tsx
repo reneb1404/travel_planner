@@ -6,6 +6,16 @@ export default function SignUpForm() {
 		<div className="md:flex md:items-center md:justify-center md:h-screen">
 			<form>
 				<label className="input input-bordered flex items-center gap-2 my-5">
+					Name
+					<input
+						type="text"
+						id="full_name"
+						name="full_name"
+						className="grow"
+						required
+					/>
+				</label>
+				<label className="input input-bordered flex items-center gap-2 my-5">
 					Email
 					<input
 						type="email"
