@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar/Navbar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -24,11 +25,14 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" data-theme="black">
+		<html lang="en">
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
-				{children}
+				<div className="flex h-screen flex-col bg-base-200">
+					<Navbar />
+					{children}
+				</div>
 			</body>
 		</html>
 	);
