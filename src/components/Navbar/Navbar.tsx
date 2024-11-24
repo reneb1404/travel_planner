@@ -42,10 +42,10 @@ export default function Navbar() {
 							<Link href="/">Home</Link>
 						</li>
 						<li>
-							<Link href="trips">My Trips</Link>
+							<Link href="/trips">My Trips</Link>
 						</li>
 						<li>
-							<Link href="about">About</Link>
+							<Link href="/about">About</Link>
 						</li>
 					</ul>
 				</div>
@@ -62,12 +62,12 @@ export default function Navbar() {
 						</Link>
 					</li>
 					<li>
-						<Link href="trips" className="rounded-md">
+						<Link href="/trips" className="rounded-md">
 							My Trips
 						</Link>
 					</li>
 					<li>
-						<Link href="about" className="rounded-md">
+						<Link href="/about" className="rounded-md">
 							About
 						</Link>
 					</li>
